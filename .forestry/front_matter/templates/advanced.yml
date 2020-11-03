@@ -1,0 +1,41 @@
+---
+label: Advanced Page
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: Title
+  description: The title of the page
+  config:
+    required: true
+- type: blocks
+  name: sections
+  label: Sections
+  description: Page sections
+  template_types:
+  - blog_feed_section
+  - contact_section
+  - content_section
+  - cta_section
+  - features_section
+  - hero_section
+  - team_section
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: advanced
+  config:
+    required: true
+pages:
+- about.md
+- blog/author/dianne-ameter.md
+- blog/author/gordon-norman.md
+- blog/author/miles-tone.md
+- blog/category/general.md
+- blog/category/news.md
+- blog/category/tutorials.md
+- blog/index.md
+- contact.md
+- features.md
+- index.md
