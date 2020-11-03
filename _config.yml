@@ -33,6 +33,7 @@ header:
       label: Contact Us
       url: /contact
       style: primary
+  logo: /images/logo.png
 footer:
   type: footer
   template: footer
