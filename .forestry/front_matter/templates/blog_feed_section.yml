@@ -10,9 +10,8 @@ fields:
 - type: boolean
   name: show_recent
   label: Show recent posts
-  description: >-
-    Show the specified number of recent posts. Should not be used with author
-    and category filters.
+  description: Show the specified number of recent posts. Should not be used with
+    author and category filters.
   default: false
   config:
     required: true

@@ -75,8 +75,7 @@ fields:
   - type: number
     name: background_image_opacity
     label: Background Image Opacity
-    description: >-
-      An integer between 0 and 100. A lower value makes the image more
+    description: An integer between 0 and 100. A lower value makes the image more
       transparent.
   - type: select
     name: background_image_size
