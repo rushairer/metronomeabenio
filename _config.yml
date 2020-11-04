@@ -70,13 +70,7 @@ footer:
       style: link
       new_window: true
   content: '&copy; aben.io. All rights reserved.'
-  links:
-    - type: action
-      template: action
-      label: Made with Stackbit.
-      url: 'https://www.stackbit.com'
-      style: link
-      new_window: true
+  links: []
 sass:
   indentWidth: 4
   style: compressed
