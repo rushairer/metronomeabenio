@@ -6,7 +6,7 @@ header:
   type: header
   template: header
   title: Metronome
-  has_nav: true
+  has_nav: false
   nav_links:
     - type: action
       template: action
