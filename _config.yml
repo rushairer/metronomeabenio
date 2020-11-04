@@ -1,7 +1,7 @@
-title: Stackbit Starter Theme
+title: Metronome
 baseurl: /
 permalink: '/:title/'
-description: An ultra customizable generic theme for Stackbit
+description: Metronome in your pocket
 header:
   type: header
   template: header
@@ -69,14 +69,8 @@ footer:
       url: 'https://www.linkedin.com/'
       style: link
       new_window: true
-  content: '&copy; Stackbit-Starter. All rights reserved.'
-  links:
-    - type: action
-      template: action
-      label: Made with Stackbit.
-      url: 'https://www.stackbit.com'
-      style: link
-      new_window: true
+  content: '&copy; aben.io. All rights reserved.'
+  links: []
 sass:
   indentWidth: 4
   style: compressed
