@@ -4,7 +4,9 @@ sections:
   - type: hero_section
     template: hero_section
     title: Metronome in your pocket.
-    subtitle: ''
+    subtitle: >-
+      A metronome software developed for my seven-year-old son who is learning
+      piano. 
     actions:
       - type: action
         template: action
