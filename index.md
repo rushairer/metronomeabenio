@@ -10,7 +10,7 @@ sections:
     actions:
       - type: action
         template: action
-        label: Learn More
+        label: Download
         url: /features
         style: primary
     align: left
