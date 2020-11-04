@@ -94,6 +94,5 @@ sections:
   has_background: true
   background_color: gray
 layout: advanced
-published: false
 
 ---
