@@ -1,5 +1,5 @@
 ---
-title: 'Try '
+title: Try metronome on App Clips
 excerpt: lorem-ipsum
 layout: page
 ---
