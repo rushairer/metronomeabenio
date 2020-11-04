@@ -69,7 +69,7 @@ footer:
       url: 'https://www.linkedin.com/'
       style: link
       new_window: true
-  content: '&copy; Stackbit-Starter. All rights reserved.'
+  content: '&copy; aben.io. All rights reserved.'
   links:
     - type: action
       template: action
