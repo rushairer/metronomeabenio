@@ -15,7 +15,7 @@ sections:
         style: primary
         new_window: false
     align: left
-    image: images/hero.svg
+    image: /images/iPhone 11 Pro Max-01Home - Portrait_framed.png
     image_position: right
     has_background: true
     background:
