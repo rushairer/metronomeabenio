@@ -33,7 +33,7 @@ header:
       label: Contact Us
       url: /contact
       style: primary
-  logo: /images/AppIcon_60x60@3x.png
+  logo: /images/marvelous-apple.png
 footer:
   type: footer
   template: footer
