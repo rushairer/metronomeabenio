@@ -13,11 +13,6 @@ sections:
         label: Learn More
         url: /features
         style: primary
-      - type: action
-        template: action
-        label: Contact Us
-        url: /contact
-        style: secondary
     align: left
     image: images/hero.svg
     image_position: right
