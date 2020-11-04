@@ -49,7 +49,7 @@ footer:
       label: Privacy and Terms
       url: /terms
       style: link
-  has_social: true
+  has_social: false
   social_links:
     - type: action
       template: action
