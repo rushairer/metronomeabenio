@@ -4,9 +4,7 @@ sections:
   - type: hero_section
     template: hero_section
     title: Metronome in your pocket.
-    subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
+    subtitle: The best Metronome in your pocket.
     actions:
       - type: action
         template: action
