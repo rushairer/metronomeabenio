@@ -13,7 +13,7 @@ sections:
         label: Download
         url: /features
         style: primary
-        new_window: true
+        new_window: false
     align: left
     image: images/hero.svg
     image_position: right
