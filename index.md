@@ -10,7 +10,7 @@ sections:
   - type: action
     template: action
     label: Download
-    url: "/features"
+    url: https://apps.apple.com/cn/app/%E8%8A%82%E6%8B%8D%E5%99%A8-%E9%80%81%E7%BB%99%E5%AD%A9%E5%AD%90%E7%9A%84%E9%9F%B3%E4%B9%90%E5%B0%8F%E7%A4%BC%E7%89%A9/id1538268059
     style: primary
     new_window: false
   align: left
