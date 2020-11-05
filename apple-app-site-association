@@ -1,0 +1,14 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "292J49Y2B4.io.aben.Metronome",
+                "paths": [ "*"]
+            }
+        ]
+    },
+    "appclips": {
+        "apps": ["292J49Y2B4.io.aben.Metronome.Clip"]
+    }
+}
