@@ -14,8 +14,8 @@ sections:
     style: primary
     new_window: false
   align: left
-  image: "/images/iPhone 11 Pro Max-01Home - Portrait_framed.png"
-  image_position: right
+  image: "/images/metronome_ads.png"
+  image_position: left
   has_background: true
   background:
     background_color: white
