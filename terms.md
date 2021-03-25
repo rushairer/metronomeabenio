@@ -1,5 +1,6 @@
 ---
 title: Privacy and Terms
+excerpt: lorem-ipsum
 layout: page
 ---
 
@@ -79,7 +80,9 @@ You agree to defend, indemnify and hold harmless MetronomeApp (and its suppliers
 
 5. Third Parties
 
-5.1 Application Stores. You acknowledge and agree that the availability of the App is dependent on the third party from which you received App, e.g., the Apple iPhone or Android stores (“Application Store”). You acknowledge that this Agreement is between you and MetronomeApp and not with the Application Store. The Application Store is not responsible for the App, the content thereof, maintenance, support services, and warranty therefor, and addressing any claims relating thereto (e.g., product liability, legal compliance, or intellectual property infringement). You agree to pay all fees charged by the Application Store in connection with App (if any). You agree to comply with, and your license to use App is conditioned upon your compliance with, all applicable third party terms of agreement (e.g., the Application Store’s terms and policies) when using App. You acknowledge that the Application Store (and its subsidiaries) are third party beneficiaries of this Agreement and will have the right to enforce this Agreement.
+5.1 Application Stores. 
+
+You acknowledge and agree that the availability of the App is dependent on the third party from which you received App, e.g., the Apple iPhone or Android stores (“Application Store”). You acknowledge that this Agreement is between you and MetronomeApp and not with the Application Store. The Application Store is not responsible for the App, the content thereof, maintenance, support services, and warranty therefor, and addressing any claims relating thereto (e.g., product liability, legal compliance, or intellectual property infringement). You agree to pay all fees charged by the Application Store in connection with App (if any). You agree to comply with, and your license to use App is conditioned upon your compliance with, all applicable third party terms of agreement (e.g., the Application Store’s terms and policies) when using App. You acknowledge that the Application Store (and its subsidiaries) are third party beneficiaries of this Agreement and will have the right to enforce this Agreement.
 
 5.2 Third Party Services
 
