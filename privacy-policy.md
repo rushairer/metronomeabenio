@@ -1,5 +1,5 @@
 ---
-title: lorem-ipsum
+title: Privacy Policy
 excerpt: lorem-ipsum
 layout: page
 ---
