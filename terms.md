@@ -131,4 +131,4 @@ This Agreement is the final, complete and exclusive agreement of you and Metrono
 
 10. Apple Application Store Additional Terms and Conditions
 
-The following additional terms and conditions apply to you if you are using an App from the Apple Application Store. To the extent the other terms and conditions of this Agreement are less restrictive than, or otherwise conflict with, the terms and conditions of this Section 10, the more restrictive or conflicting terms and conditions​​​​.
+The following additional terms and conditions apply to you if you are using an App from the Apple Application Store. To the extent the other terms and conditions of this Agreement are less restrictive than, or otherwise conflict with, the terms and conditions of this Section 10, the more restrictive or conflicting terms and conditions.
