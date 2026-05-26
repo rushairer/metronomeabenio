@@ -1,52 +1,64 @@
 title: Metronome
 baseurl: /
 permalink: '/:title/'
-description: Metronome in your pocket
+description: Metronome26 and Metronome Pro help musicians practice with precise tempo, expressive sounds, Apple Watch support, and sheet music workflows.
 header:
   type: header
   template: header
   title: Metronome
-  has_nav: false
+  has_nav: true
   nav_links:
     - type: action
       template: action
-      label: Features
-      url: /features
+      label: Metronome26
+      url: /#metronome26
       style: link
     - type: action
       template: action
-      label: Blog
-      url: /blog
+      label: Pro
+      url: /#pro
       style: link
     - type: action
       template: action
-      label: About
-      url: /about
+      label: Compare
+      url: /#compare
       style: link
     - type: action
       template: action
-      label: Style Guide
-      url: /style-guide
+      label: Privacy
+      url: /privacy-policy
       style: link
     - type: action
       template: action
-      label: Contact Us
-      url: /contact
+      label: Download
+      url: /#download
       style: primary
-  logo: /images/marvelous-apple.png
+  logo: ''
 footer:
   type: footer
   template: footer
-  has_nav: false
+  has_nav: true
   nav_links:
     - type: action
       template: action
-      label: Contact Us
-      url: /contact
+      label: Metronome26
+      url: https://apps.apple.com/us/app/metronome26-practice-beats/id6758878910
+      style: link
+      new_window: true
+    - type: action
+      template: action
+      label: Metronome Pro
+      url: https://apps.apple.com/us/app/metronome-metronome-pro/id1538268059
+      style: link
+      new_window: true
+    - type: action
+      template: action
+      label: Privacy Policy
+      url: /privacy-policy
       style: link
     - type: action
       template: action
-      label: Privacy and Terms
+      label: Terms of Service
       url: /terms
       style: link
   has_social: false

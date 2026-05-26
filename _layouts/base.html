@@ -7,15 +7,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="{{ page.excerpt | default: site.description }}"/>
         <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}">
-        <meta name="apple-itunes-app" content="app-id=1538268059, app-clip-bundle-id=io.aben.Metronome.Clip" />
+        <meta name="apple-itunes-app" content="app-id=6758878910" />
         <meta property="og:title" content="Metronome" />
         <meta property="og:locale" content="en_US" />
-        <meta property="og:description" content="Metronome in your pocket." />
-        <link rel="canonical" href="https://metronome.aben.io/appclips" />
-        <meta property="og:url" content="https://metronome.aben.io/appclips" />
+        <meta property="og:description" content="{{ page.excerpt | default: site.description }}" />
+        <link rel="canonical" href="https://metronome.aben.io{{ page.url }}" />
+        <meta property="og:url" content="https://metronome.aben.io{{ page.url }}" />
         <meta property="og:site_name" content="Metronome" />
+        <meta property="og:image" content="https://metronome.aben.io/assets/img/hero-practice-room.png" />
+        <link rel="icon" href="{{ '/assets/img/metronome26-icon.jpg' | relative_url }}">
         <script type="application/ld+json">
-            {"@type":"WebPage","headline":"Metronome","url":"https://metronome.aben.io/appclips.html","description":"Metronome in your pocket.","@context":"https://schema.org"}
+            {"@type":"WebPage","headline":"Metronome","url":"https://metronome.aben.io{{ page.url }}","description":"{{ page.excerpt | default: site.description }}","@context":"https://schema.org"}
         </script>
     </head>
     <body>
