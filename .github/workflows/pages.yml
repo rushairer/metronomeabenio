@@ -31,7 +31,7 @@ jobs:
       - name: Prepare site
         run: |
           mkdir -p _site
-          cp -r index.html privacy-policy.html terms.html assets apple-app-site-association _site/
+          cp -r index.html privacy-policy terms assets apple-app-site-association _site/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
