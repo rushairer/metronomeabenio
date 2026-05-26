@@ -1,173 +1,241 @@
----
-title: Metronome
-excerpt: Modern metronome apps for focused music practice.
-layout: body
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Metronome</title>
+  <meta name="description" content="Metronome26 and Metronome Pro help musicians practice with precise tempo, expressive sounds, Apple Watch support, and sheet music workflows.">
+  <meta name="apple-itunes-app" content="app-id=6758878910">
+  <meta property="og:title" content="Metronome">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:description" content="Metronome26 and Metronome Pro help musicians practice with precise tempo, expressive sounds, Apple Watch support, and sheet music workflows.">
+  <meta property="og:url" content="https://metronome.aben.io/">
+  <meta property="og:site_name" content="Metronome">
+  <meta property="og:image" content="https://metronome.aben.io/assets/img/hero-practice-room.png">
+  <link rel="canonical" href="https://metronome.aben.io/">
+  <link rel="icon" href="assets/img/metronome26-icon.jpg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script type="application/ld+json">
+    {"@type":"WebPage","headline":"Metronome","url":"https://metronome.aben.io/","description":"Metronome26 and Metronome Pro help musicians practice with precise tempo, expressive sounds, Apple Watch support, and sheet music workflows.","@context":"https://schema.org"}
+  </script>
+</head>
+<body>
 
-<main id="content" class="landing">
-  <section class="hero">
-    <div class="hero__media" aria-hidden="true">
-      <img src="{{ '/assets/img/hero-practice-room.png' | relative_url }}" alt="">
-    </div>
-    <div class="hero__content">
-      <p class="eyebrow">Metronome for Apple devices</p>
-      <h1>Keep time. Shape practice. Stay in flow.</h1>
-      <p class="hero__copy">Metronome26 and Metronome Pro turn the simple click into a focused practice system for rhythm training, sheet music, Live Activity, and Apple Watch.</p>
-      <div class="hero__actions">
-        <a class="pill pill--primary" href="https://apps.apple.com/us/app/metronome26-practice-beats/id6758878910">Download Metronome26</a>
-        <a class="pill pill--secondary" href="https://apps.apple.com/us/app/metronome-metronome-pro/id1538268059">Get Metronome Pro</a>
-      </div>
-      <p class="hero__meta">Metronome26 is free on the App Store. Metronome Pro is a paid classic with Apple Watch support.</p>
-    </div>
-  </section>
-
-  <section class="intro band">
-    <div class="landing__inner">
-      <p class="section-kicker">Two apps, one practice core</p>
-      <h2>A precise metronome for daily players, teachers, and students.</h2>
-      <div class="intro__grid">
-        <article>
-          <span>20-480 BPM</span>
-          <p>Fine control for slow repetition, tempo ramps, and high-speed rhythm work.</p>
-        </article>
-        <article>
-          <span>SoundFont practice</span>
-          <p>Use more expressive click colors and beat accents than a traditional hardware metronome.</p>
-        </article>
-        <article>
-          <span>Apple ecosystem</span>
-          <p>Practice from iPhone, iPad, Mac, Live Activity, Dynamic Island, and Apple Watch where supported.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section id="metronome26" class="product product--twenty-six">
-    <div class="landing__inner product__layout">
-      <div class="product__copy">
-        <img class="app-icon" src="{{ '/assets/img/metronome26-icon.jpg' | relative_url }}" alt="Metronome26 app icon">
-        <p class="section-kicker">Metronome26: Practice Beats</p>
-        <h2>The forward-looking practice app.</h2>
-        <p>Metronome26 keeps core metronome controls accessible while adding richer practice workflows: sheet music browsing, PDF and MIDI resources, imported MIDI practice, loop syncing, and bar/beat/subdivision-aware repetition.</p>
-        <ul class="check-list">
-          <li>Free download with professional metronome controls.</li>
-          <li>Sheet Music Library subscriptions for advanced practice value.</li>
-          <li>Built for modern iOS, Live Activity, Dynamic Island, and localized global growth.</li>
-        </ul>
-        <a class="pill pill--primary" href="https://apps.apple.com/us/app/metronome26-practice-beats/id6758878910">Download free</a>
-      </div>
-      <div class="phone-stack" aria-label="Metronome26 feature preview">
-        <div class="glass-phone glass-phone--generated">
-          <div class="meter">
-            <span>96</span>
-            <small>BPM</small>
+<div class="site">
+  <header class="site-header">
+    <div class="container--lg">
+      <nav class="navbar" aria-label="Main Navigation">
+        <a class="sr-only" href="#content">Skip to main content</a>
+        <a class="navbar__title" href="/">Metronome</a>
+        <button aria-label="Menu" class="navbar__menu-btn js-nav-toggle">
+          <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 13h18c0.552 0 1-0.448 1-1s-0.448-1-1-1h-18c-0.552 0-1 0.448-1 1s0.448 1 1 1zM3 7h18c0.552 0 1-0.448 1-1s-0.448-1-1-1h-18c-0.552 0-1 0.448-1 1s0.448 1 1 1zM3 19h18c0.552 0 1-0.448 1-1s-0.448-1-1-1h-18c-0.552 0-1 0.448-1 1s0.448 1 1 1z"></path></svg>
+        </button>
+        <div class="navbar__menu">
+          <div class="navbar__scroller">
+            <div class="navbar__inner">
+              <button aria-label="Close" class="navbar__close-btn js-nav-toggle">
+                <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5.293 6.707l5.293 5.293-5.293 5.293c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l5.293-5.293 5.293 5.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414l-5.293-5.293 5.293-5.293c0.391-0.391 0.391-1.024 0-1.414s-1.024-0.391-1.414 0l-5.293 5.293-5.293-5.293c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z"></path></svg>
+              </button>
+              <ul class="navbar__list">
+                <li class="navbar__item"><a href="#metronome26">Metronome26</a></li>
+                <li class="navbar__item"><a href="#pro">Pro</a></li>
+                <li class="navbar__item"><a href="#compare">Compare</a></li>
+                <li class="navbar__item"><a href="privacy-policy.html">Privacy</a></li>
+                <li class="navbar__item navbar__item--btn"><a class="btn" href="#download">Download</a></li>
+              </ul>
+            </div>
           </div>
-          <div class="beats"><i></i><i></i><i></i><i></i></div>
-          <p>Practice loop ready</p>
         </div>
-        <div class="feature-panel">
-          <strong>Version 1.2.3</strong>
-          <span>Latest store notes mention sheet music library browsing, PDF/MIDI support, imported MIDI practice, and loop sync.</span>
-        </div>
-      </div>
+        <div class="navbar__overlay"></div>
+      </nav>
     </div>
-  </section>
+  </header>
 
-  <section id="pro" class="product product--pro">
-    <div class="landing__inner product__layout product__layout--reverse">
-      <div class="screens">
-        <img src="{{ '/assets/img/metronome-pro-screen-1.png' | relative_url }}" alt="Metronome Pro sheet music screenshot">
-        <img src="{{ '/assets/img/metronome-pro-screen-2.png' | relative_url }}" alt="Metronome Pro home screenshot">
+  <main id="content" class="landing">
+    <section class="hero">
+      <div class="hero__media" aria-hidden="true">
+        <img src="assets/img/hero-practice-room.png" alt="">
       </div>
-      <div class="product__copy">
-        <img class="app-icon" src="{{ '/assets/img/metronome-pro-icon.jpg' | relative_url }}" alt="Metronome Pro app icon">
-        <p class="section-kicker">Metronome - Metronome Pro</p>
-        <h2>The classic paid metronome.</h2>
-        <p>Metronome Pro is the established version for players who want a simple paid download, no ads, flexible beat settings, multiple sounds, color themes, and Apple Watch support.</p>
-        <ul class="check-list">
-          <li>Paid download on the App Store.</li>
-          <li>Apple Watch, iPhone, iPad, and Mac compatibility listed online.</li>
-          <li>Current App Store rating: 4.24 from 33 ratings in the US store snapshot.</li>
+      <div class="hero__content">
+        <p class="eyebrow">Metronome for Apple devices</p>
+        <h1>Keep time. Shape practice. Stay in flow.</h1>
+        <p class="hero__copy">Metronome26 and Metronome Pro turn the simple click into a focused practice system for rhythm training, sheet music, Live Activity, and Apple Watch.</p>
+        <div class="hero__actions">
+          <a class="pill pill--primary" href="https://apps.apple.com/us/app/metronome26-practice-beats/id6758878910">Download Metronome26</a>
+          <a class="pill pill--secondary" href="https://apps.apple.com/us/app/metronome-metronome-pro/id1538268059">Get Metronome Pro</a>
+        </div>
+        <p class="hero__meta">Metronome26 is free on the App Store. Metronome Pro is a paid classic with Apple Watch support.</p>
+      </div>
+    </section>
+
+    <section class="intro band">
+      <div class="landing__inner">
+        <p class="section-kicker">Two apps, one practice core</p>
+        <h2>A precise metronome for daily players, teachers, and students.</h2>
+        <div class="intro__grid">
+          <article>
+            <span>20-480 BPM</span>
+            <p>Fine control for slow repetition, tempo ramps, and high-speed rhythm work.</p>
+          </article>
+          <article>
+            <span>SoundFont practice</span>
+            <p>Use more expressive click colors and beat accents than a traditional hardware metronome.</p>
+          </article>
+          <article>
+            <span>Apple ecosystem</span>
+            <p>Practice from iPhone, iPad, Mac, Live Activity, Dynamic Island, and Apple Watch where supported.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="metronome26" class="product product--twenty-six">
+      <div class="landing__inner product__layout">
+        <div class="product__copy">
+          <img class="app-icon" src="assets/img/metronome26-icon.jpg" alt="Metronome26 app icon">
+          <p class="section-kicker">Metronome26: Practice Beats</p>
+          <h2>The forward-looking practice app.</h2>
+          <p>Metronome26 keeps core metronome controls accessible while adding richer practice workflows: sheet music browsing, PDF and MIDI resources, imported MIDI practice, loop syncing, and bar/beat/subdivision-aware repetition.</p>
+          <ul class="check-list">
+            <li>Free download with professional metronome controls.</li>
+            <li>Sheet Music Library subscriptions for advanced practice value.</li>
+            <li>Built for modern iOS, Live Activity, Dynamic Island, and localized global growth.</li>
+          </ul>
+          <a class="pill pill--primary" href="https://apps.apple.com/us/app/metronome26-practice-beats/id6758878910">Download free</a>
+        </div>
+        <div class="phone-stack" aria-label="Metronome26 feature preview">
+          <div class="glass-phone">
+            <div class="meter">
+              <span>96</span>
+              <small>BPM</small>
+            </div>
+            <div class="beats"><i></i><i></i><i></i><i></i></div>
+            <p>Practice loop ready</p>
+          </div>
+          <div class="feature-panel">
+            <strong>Version 1.2.3</strong>
+            <span>Latest store notes mention sheet music library browsing, PDF/MIDI support, imported MIDI practice, and loop sync.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pro" class="product product--pro">
+      <div class="landing__inner product__layout product__layout--reverse">
+        <div class="screens">
+          <img src="assets/img/metronome-pro-screen-1.png" alt="Metronome Pro sheet music screenshot">
+          <img src="assets/img/metronome-pro-screen-2.png" alt="Metronome Pro home screenshot">
+        </div>
+        <div class="product__copy">
+          <img class="app-icon" src="assets/img/metronome-pro-icon.jpg" alt="Metronome Pro app icon">
+          <p class="section-kicker">Metronome - Metronome Pro</p>
+          <h2>The classic paid metronome.</h2>
+          <p>Metronome Pro is the established version for players who want a simple paid download, no ads, flexible beat settings, multiple sounds, color themes, and Apple Watch support.</p>
+          <ul class="check-list">
+            <li>Paid download on the App Store.</li>
+            <li>Apple Watch, iPhone, iPad, and Mac compatibility listed online.</li>
+            <li>Current App Store rating: 4.24 from 33 ratings in the US store snapshot.</li>
+          </ul>
+          <a class="pill pill--dark" href="https://apps.apple.com/us/app/metronome-metronome-pro/id1538268059">Buy Metronome Pro</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="compare" class="compare band">
+      <div class="landing__inner">
+        <p class="section-kicker">Choose the right version</p>
+        <h2>Metronome26 is for the next practice system. Pro is the compact classic.</h2>
+        <div class="compare__table" role="table" aria-label="Metronome26 and Metronome Pro comparison">
+          <div role="row" class="compare__row compare__row--head">
+            <span role="columnheader">Capability</span>
+            <span role="columnheader">Metronome26</span>
+            <span role="columnheader">Metronome Pro</span>
+          </div>
+          <div role="row" class="compare__row">
+            <span role="cell">Best for</span>
+            <span role="cell">Modern practice, sheet music, MIDI, subscriptions</span>
+            <span role="cell">Paid classic metronome with Watch support</span>
+          </div>
+          <div role="row" class="compare__row">
+            <span role="cell">Pricing model</span>
+            <span role="cell">Free core app, optional Sheet Music Library subscription</span>
+            <span role="cell">Paid App Store download</span>
+          </div>
+          <div role="row" class="compare__row">
+            <span role="cell">Core metronome</span>
+            <span role="cell">Precise BPM, time signatures, accents, records</span>
+            <span role="cell">Flexible BPM, 80 beat types, sound effects, themes</span>
+          </div>
+          <div role="row" class="compare__row">
+            <span role="cell">Advanced practice</span>
+            <span role="cell">Sheet music, PDF/MIDI resources, imported MIDI loops</span>
+            <span role="cell">Simple sheet music trial language remains in legacy listing</span>
+          </div>
+          <div role="row" class="compare__row">
+            <span role="cell">Platform focus</span>
+            <span role="cell">iOS 26 and newer devices</span>
+            <span role="cell">iOS 13+, iPad, Mac, Apple Watch</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="landing__inner features__grid">
+        <article>
+          <h3>Tempo that behaves</h3>
+          <p>Set precise BPM, switch time signatures, emphasize accents, and save practice states that match real rehearsal habits.</p>
+        </article>
+        <article>
+          <h3>Practice beyond the click</h3>
+          <p>Use sheet music and MIDI workflows when repetition needs measure-aware loops instead of a generic timer.</p>
+        </article>
+        <article>
+          <h3>On-screen and on-wrist</h3>
+          <p>Keep time visible through Live Activity and Apple Watch paths, so practice does not disappear when you leave the app.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="download" class="download">
+      <div class="landing__inner download__layout">
+        <div>
+          <p class="section-kicker">Download</p>
+          <h2>Start with the version that fits your practice.</h2>
+        </div>
+        <div class="download__cards">
+          <a class="download-card" href="https://apps.apple.com/us/app/metronome26-practice-beats/id6758878910">
+            <img src="assets/img/metronome26-icon.jpg" alt="">
+            <span>Metronome26</span>
+            <small>Free, modern practice workflows</small>
+          </a>
+          <a class="download-card" href="https://apps.apple.com/us/app/metronome-metronome-pro/id1538268059">
+            <img src="assets/img/metronome-pro-icon.jpg" alt="">
+            <span>Metronome Pro</span>
+            <small>Paid classic metronome</small>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container--lg">
+      <div class="site-footer__nav">
+        <ul class="site-footer__menu">
+          <li><a href="https://apps.apple.com/us/app/metronome26-practice-beats/id6758878910" target="_blank" rel="noopener">Metronome26</a></li>
+          <li><a href="https://apps.apple.com/us/app/metronome-metronome-pro/id1538268059" target="_blank" rel="noopener">Metronome Pro</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
         </ul>
-        <a class="pill pill--dark" href="https://apps.apple.com/us/app/metronome-metronome-pro/id1538268059">Buy Metronome Pro</a>
+      </div>
+      <div class="site-footer__copyright">
+        <span>&copy; aben.io. All rights reserved.</span>
       </div>
     </div>
-  </section>
+  </footer>
+</div>
 
-  <section id="compare" class="compare band">
-    <div class="landing__inner">
-      <p class="section-kicker">Choose the right version</p>
-      <h2>Metronome26 is for the next practice system. Pro is the compact classic.</h2>
-      <div class="compare__table" role="table" aria-label="Metronome26 and Metronome Pro comparison">
-        <div role="row" class="compare__row compare__row--head">
-          <span role="columnheader">Capability</span>
-          <span role="columnheader">Metronome26</span>
-          <span role="columnheader">Metronome Pro</span>
-        </div>
-        <div role="row" class="compare__row">
-          <span role="cell">Best for</span>
-          <span role="cell">Modern practice, sheet music, MIDI, subscriptions</span>
-          <span role="cell">Paid classic metronome with Watch support</span>
-        </div>
-        <div role="row" class="compare__row">
-          <span role="cell">Pricing model</span>
-          <span role="cell">Free core app, optional Sheet Music Library subscription</span>
-          <span role="cell">Paid App Store download</span>
-        </div>
-        <div role="row" class="compare__row">
-          <span role="cell">Core metronome</span>
-          <span role="cell">Precise BPM, time signatures, accents, records</span>
-          <span role="cell">Flexible BPM, 80 beat types, sound effects, themes</span>
-        </div>
-        <div role="row" class="compare__row">
-          <span role="cell">Advanced practice</span>
-          <span role="cell">Sheet music, PDF/MIDI resources, imported MIDI loops</span>
-          <span role="cell">Simple sheet music trial language remains in legacy listing</span>
-        </div>
-        <div role="row" class="compare__row">
-          <span role="cell">Platform focus</span>
-          <span role="cell">iOS 26 and newer devices</span>
-          <span role="cell">iOS 13+, iPad, Mac, Apple Watch</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="features">
-    <div class="landing__inner features__grid">
-      <article>
-        <h3>Tempo that behaves</h3>
-        <p>Set precise BPM, switch time signatures, emphasize accents, and save practice states that match real rehearsal habits.</p>
-      </article>
-      <article>
-        <h3>Practice beyond the click</h3>
-        <p>Use sheet music and MIDI workflows when repetition needs measure-aware loops instead of a generic timer.</p>
-      </article>
-      <article>
-        <h3>On-screen and on-wrist</h3>
-        <p>Keep time visible through Live Activity and Apple Watch paths, so practice does not disappear when you leave the app.</p>
-      </article>
-    </div>
-  </section>
-
-  <section id="download" class="download">
-    <div class="landing__inner download__layout">
-      <div>
-        <p class="section-kicker">Download</p>
-        <h2>Start with the version that fits your practice.</h2>
-      </div>
-      <div class="download__cards">
-        <a class="download-card" href="https://apps.apple.com/us/app/metronome26-practice-beats/id6758878910">
-          <img src="{{ '/assets/img/metronome26-icon.jpg' | relative_url }}" alt="">
-          <span>Metronome26</span>
-          <small>Free, modern practice workflows</small>
-        </a>
-        <a class="download-card" href="https://apps.apple.com/us/app/metronome-metronome-pro/id1538268059">
-          <img src="{{ '/assets/img/metronome-pro-icon.jpg' | relative_url }}" alt="">
-          <span>Metronome Pro</span>
-          <small>Paid classic metronome</small>
-        </a>
-      </div>
-    </div>
-  </section>
-</main>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
